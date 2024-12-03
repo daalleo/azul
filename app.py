@@ -3,7 +3,7 @@ import pandas as pd
 import requests
 
 # URL base de GitHub para los PDFs
-GITHUB_REPO_URL = "https://raw.githubusercontent.com/leo-da-niel/Prueba2/main/C/"
+GITHUB_REPO_URL = "https://raw.githubusercontent.com/leo-da-niel/Prueba2/main/archivos/"
 
 # Tu token de acceso personal de GitHub (reemplázalo por el token real)
 GITHUB_TOKEN = "+645gniurfhgh"
@@ -23,10 +23,10 @@ def get_pdf_from_github(pdf_filename):
         return None
 
 # Interfaz principal de Streamlit
-st.title("Prueba de API - Compra Consolidada Complementaria Birmex 2024")
+st.title("Prueba de API - Compra Consolidada Complementaria 2021")
 
 # Cargar los datos del archivo Excel
-excel_file = "relacion.xlsx"  # Especifica la ruta a tu archivo Excel
+excel_file = "rela.xlsx"  # Especifica la ruta a tu archivo Excel
 data = pd.read_excel(excel_file)
 
 # Mostrar los registros en formato de tabla
