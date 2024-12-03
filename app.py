@@ -3,7 +3,7 @@ import pandas as pd
 import requests
 
 # URL base de GitHub para los PDFs
-GITHUB_REPO_URL = "https://raw.githubusercontent.com/leo-da-niel/azul/main/archivos/"
+GITHUB_REPO_URL = "https://raw.githubusercontent.com/daalleo/azul/main/archivos/"
 
 # Tu token de acceso personal de GitHub (reemplázalo por el token real)
 GITHUB_TOKEN = "+645gniurfhgh"
